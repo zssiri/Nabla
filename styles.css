@@ -56,6 +56,57 @@ body {
   cursor: pointer;
 }
 
+.welcome {
+  margin: auto;
+  max-width: 1300px;
+  height: 640px;
+  background-color: #C7E3E9;
+  position: relative;
+}
+
+.welcome__title {
+  color: #040062;
+  font-weight: 400;
+  padding-top: 80px;
+  text-align: center;
+  font-family: "Abril Fatface", sans-serif;
+}
+
+.welcome__line--small {
+  font-size: 60px;
+}
+
+.welcome__line--average {
+  font-size: 80px
+}
+
+.welcome__line--big {
+  font-size: 110px;
+}
+
+.welcome__hero {
+  width: 335px;
+  height: 385px;
+}
+
+.welcome__logo-img {
+  position: absolute;
+  left: 625px;
+  bottom: 80px;
+}
+
+.welcome__hero--left {
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+}
+
+.welcome__hero--right {
+  position: absolute;
+  right: 20px;
+  bottom: 0px;
+}
+
 .block-info {
   padding: 100px 0;
 }
@@ -143,11 +194,12 @@ body {
   font-weight: 600;
   line-height: 220%;
 }
+
 .list-links__item ul {
   list-style: none;
 }
 
-.list-links__item a{
+.list-links__item a {
   text-decoration: none;
   font-size: 18px;
   font-weight: 400;
