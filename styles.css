@@ -57,55 +57,50 @@ body {
 }
 
 .block-info {
-  padding: 100px 0 ;
+  padding: 100px 0;
 }
 
-.info-right,
-.info-left {
+.info {
   display: flex;
   align-items: center;
-  margin: 0 auto;
+  margin: auto;
   max-width: 1300px;
 }
 
-.info-left {
+.info--left {
   flex-direction: row-reverse;
 }
 
-.info-image-right,
-.info-image-left {
+.info__image--pink,
+.info__image--blue {
   padding: 70px 208px;
 }
 
-.info-image-right {
+.info__image--pink {
   background-color: #FEF1EF;
 }
 
-.info-image-left {
+.info__image--blue {
   background-color: #C7E3E9;
 }
 
-.info-image-right img,
-.info-image-left img {
+.info__image--blue img,
+.info__image--pink img {
   border-radius: 37px;
 }
 
-.info-text-right {
+.info__text {
   padding: 20px 100px 20px 100px;
 }
 
-.info-text-left {
-  padding: 20px 100px 20px 100px;
-}
-
-.info-text__discription {
+.info__text-discription {
   display: flex;
   flex-direction: column;
   gap: 40px;
   align-items: flex-start;
 }
 
-.info-text__discription-title {
+.info__text-discription-title {
   color: #040062;
   font-family: "Abril Fatface", sans-serif;
   font-size: 50px;
@@ -113,7 +108,7 @@ body {
   line-height: 125%;
 }
 
-.info-text__discription-text {
+.info__text-discription-text {
   color: #6D758D;
   font-size: 20px;
 }
@@ -128,6 +123,7 @@ body {
   max-width: 1300px;
   padding: 60px 0;
   margin: 0 auto;
+  gap: 40px;
 }
 
 .footer__logo {
